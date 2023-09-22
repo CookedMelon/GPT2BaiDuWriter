@@ -1,0 +1,726 @@
+1672587326397	geckodriver	INFO	Listening on 127.0.0.1:12589
+1672587329480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12590" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileGU3QCT"
+1672587329784	Marionette	INFO	Marionette enabled
+1672587329788	Marionette	INFO	Listening on port 12621
+Read port: 12621
+WebDriver BiDi listening on ws://127.0.0.1:12590
+1672587329916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileGU3QCT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:12590/devtools/browser/32d6f289-7a06-4dcf-ba5b-a67fa1977941
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672587342761	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672587350412	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672587354209	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672587358433	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: GFX: RenderThread detected a device reset in PostUpdate
+[GFX1]: Crash during D3D11 device creation
+[GFX1-]: RcANGLE(no compositor device for EGLDisplay)(Create)
+[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=true
+[GFX1-]: Killing GPU process due to IPC reply timeout
+[Parent 24816, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:347
+[GFX1-]: Fallback WR to SW-WR
+[GFX1-]: Failed to create remote compositor
+[Parent 24816, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:347
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672592934233	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672593670455	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672593672212	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672593672961	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672593685524	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js?_=1672593709365, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://wkbjcloudbos.bdimg.com/v1/docconvert6896//wk/c07997bbd595018c682e61e3ce5e0d46/0.json?responseContentType=application%2Fjavascript&responseCacheControl=max-age%3D3888000&responseExpires=Thu%2C%2016%20Feb%202023%2001%3A21%3A49%20%2B0800&authorization=bce-auth-v1%2F46dc8cc346744dad800651823a96d9cd%2F2023-01-01T17%3A21%3A49Z%2F3600%2Fhost%2F5abede8519c50c98c73460213e8a0983dc6e26823b9a1626465e69ce9d052c4a&x-bce-range=0-0&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY3MjU5NzMwOSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDb250ZW50VHlwZSIsInJlc3BvbnNlQ2FjaGVDb250cm9sIiwicmVzcG9uc2VFeHBpcmVzIiwieC1iY2UtcmFuZ2UiXX0%3D.r5tMO9%2F03pQoQZffvU4bMkI3zqcrcueGj6AFdLpSllY%3D.1672597309, line 1: ReferenceError: w is not defined
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672593765302	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672594490726	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672594492461	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672594493207	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672595733533	geckodriver	INFO	Listening on 127.0.0.1:11349
+1672595736581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "11350" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileS8R6uO"
+1672595736868	Marionette	INFO	Marionette enabled
+1672595736871	Marionette	INFO	Listening on port 11363
+Read port: 11363
+WebDriver BiDi listening on ws://127.0.0.1:11350
+1672595736982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileS8R6uO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:11350/devtools/browser/72adc978-6788-499d-8195-8d4b593e12a1
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672595755171	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672595759420	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672595869892	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672595998723	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672596136232	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672596506239	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672596533660	geckodriver	INFO	Listening on 127.0.0.1:13892
+1672596536713	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13893" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileDlP7p1"
+1672596536915	Marionette	INFO	Marionette enabled
+1672596536918	Marionette	INFO	Listening on port 13906
+Read port: 13906
+WebDriver BiDi listening on ws://127.0.0.1:13893
+1672596537030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileDlP7p1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13893/devtools/browser/61320288-4f9a-4c60-8f7c-391883b4fc79
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672596555237	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672596559136	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672596658075	Marionette	INFO	Stopped listening on port 13906
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672675470338	geckodriver	INFO	Listening on 127.0.0.1:1408
+1672675473395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileWuqho3"
+1672675473679	Marionette	INFO	Marionette enabled
+1672675473682	Marionette	INFO	Listening on port 1431
+Read port: 1431
+WebDriver BiDi listening on ws://127.0.0.1:1409
+1672675473803	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileWuqho3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1409/devtools/browser/0cf70778-26f8-475d-b3d8-83698b48907b
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672675487675	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672675495698	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672675509563	Marionette	INFO	Stopped listening on port 1431
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672716691726	geckodriver	INFO	Listening on 127.0.0.1:1984
+1672716694787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileXXspr1"
+1672716695093	Marionette	INFO	Marionette enabled
+1672716695097	Marionette	INFO	Listening on port 2095
+Read port: 2095
+WebDriver BiDi listening on ws://127.0.0.1:1985
+1672716695234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileXXspr1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1985/devtools/browser/d039060d-8cc4-457d-987f-9983ffa3fe47
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672716705992	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672716713773	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672716717681	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672716721645	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: GFX: RenderThread detected a device reset in PostUpdate
+[GFX1]: Crash during D3D11 device creation
+[GFX1-]: RcANGLE(no compositor device for EGLDisplay)(Create)
+[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=true
+[GFX1-]: Fallback WR to SW-WR
+[GFX1-]: Failed to create remote compositor
+[GFX1-]: Receive[G IPC closeFX1-]: Receive with reason=AbnormalShutdo wnIPC close with 
+reason=AbnormalShutdown
+[Parent 43716, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:347
+[GFX1-]: Failed as lost WebRenderBridgeChild.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchSyncMessage] Error: PCompositorBridge::Msg_NotifyChildRecreated Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1672734028222	Marionette	INFO	Stopped listening on port 2095
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+emote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileNJPZ6g"
+1672726672469	Marionette	INFO	Marionette enabled
+1672726672472	Marionette	INFO	Listening on port 13050
+Read port: 13050
+WebDriver BiDi listening on ws://127.0.0.1:13036
+1672726672591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileNJPZ6g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13036/devtools/browser/bc72a43c-2c0c-46c0-bff0-2d331dc69366
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672726691101	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672726698367	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672727973582	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672728617673	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672728628784	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+[Parent 21012, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: Failed to create WebGL context: WebGL actor Initialize failed
+[GFX1-]: Receive[GF IPC close with reason=AbnoXrm1-]: Receive IPC close with reason=AbnormalShutdownalShutdown
+
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: Failed to create WebGL context: WebGL actor Initialize failed
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: Failed to create WebGL context: WebGL actor Initialize failed
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: Failed to create WebGL context: WebGL actor Initialize failed
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1672731261890	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672731264642	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672731265895	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672731267142	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672731268418	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672731269690	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672731270934	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672731283424	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672733675839	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cuttlefish.baidu.com."
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js?_=1672733799425, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672751934681	geckodriver	INFO	Listening on 127.0.0.1:1218
+1672751937716	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileqM3jFF"
+1672751938001	Marionette	INFO	Marionette enabled
+1672751938005	Marionette	INFO	Listening on port 1229
+Read port: 1229
+WebDriver BiDi listening on ws://127.0.0.1:1219
+1672751938134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileqM3jFF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1219/devtools/browser/aa9d18df-7524-4d78-ae1a-999fd8a0b549
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672751952016	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672751959757	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672751963640	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672751967772	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672752104224	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672753108233	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672770459370	geckodriver	INFO	Listening on 127.0.0.1:13000
+1672770462443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "disable-infobars" "log-level=3" "--remote-debugging-port" "13001" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileLp695t"
+1672770462758	Marionette	INFO	Marionette enabled
+1672770462762	Marionette	INFO	Listening on port 13011
+Read port: 13011
+WebDriver BiDi listening on ws://127.0.0.1:13001
+1672770462894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileLp695t\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13001/devtools/browser/7c352a29-29bc-424a-a0d1-aa911b7b34ab
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672770493359	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672770494075	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672770501940	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672770514930	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672770521731	geckodriver	INFO	Listening on 127.0.0.1:13130
+1672770524776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "disable-infobars" "--remote-debugging-port" "13131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofiledbhC1A"
+1672770525014	Marionette	INFO	Marionette enabled
+1672770525017	Marionette	INFO	Listening on port 13145
+Read port: 13145
+WebDriver BiDi listening on ws://127.0.0.1:13131
+1672770525147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofiledbhC1A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13131/devtools/browser/c3f011d5-9010-4589-ad34-20dcceed21d5
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672770534082	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672770541247	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://wappass.baidu.com/static/machine/js/api/mkd.js?cdnversion=1672770533159, line 5: TypeError: n is null
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672770586241	Marionette	INFO	Stopped listening on port 13145
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1672770596628	geckodriver	INFO	Listening on 127.0.0.1:13271
+1672770599707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "disable-infobars" "--remote-debugging-port" "13272" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileOzDOV9"
+1672770599959	Marionette	INFO	Marionette enabled
+1672770599962	Marionette	INFO	Listening on port 13284
+Read port: 13284
+WebDriver BiDi listening on ws://127.0.0.1:13272
+1672770600088	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileOzDOV9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13272/devtools/browser/ef2bf48e-1d55-4158-99f1-63104d2b574f
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+1672770605004	Marionette	INFO	Stopped listening on port 13284
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1672798303624	geckodriver	INFO	Listening on 127.0.0.1:9544
+1672798306687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "disable-infobars" "--remote-debugging-port" "9545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofilexVn7OJ"
+1672798306948	Marionette	INFO	Marionette enabled
+1672798306952	Marionette	INFO	Listening on port 9554
+Read port: 9554
+WebDriver BiDi listening on ws://127.0.0.1:9545
+1672798307056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofilexVn7OJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9545/devtools/browser/6136d0a8-f670-4967-bb9f-44552068f95b
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672798325692	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672798326266	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672798326533	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672798335047	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672798336996	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672798339862	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672798343450	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672798356720	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672800809310	geckodriver	INFO	Listening on 127.0.0.1:7313
+1672800812385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "disable-infobars" "--remote-debugging-port" "7314" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileFAAaFk"
+1672800812633	Marionette	INFO	Marionette enabled
+1672800812637	Marionette	INFO	Listening on port 7344
+Read port: 7344
+WebDriver BiDi listening on ws://127.0.0.1:7314
+1672800812760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileFAAaFk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:7314/devtools/browser/9e390b47-3526-4481-baf0-2b46be420fc2
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672800876412	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672800883269	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://wappass.baidu.com/static/machine/js/api/mkd.js?cdnversion=1672800875518, line 5: TypeError: n is null
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cuttlefish.baidu.com."
+1672801112065	geckodriver	INFO	Listening on 127.0.0.1:10666
+1672801115103	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "disable-infobars" "--remote-debugging-port" "10667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileDgnxa7"
+1672801115300	Marionette	INFO	Marionette enabled
+1672801115303	Marionette	INFO	Listening on port 10677
+Read port: 10677
+WebDriver BiDi listening on ws://127.0.0.1:10667
+1672801115416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileDgnxa7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:10667/devtools/browser/90fd9d05-5414-4b46-b59a-0eba0cb1286c
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672801125264	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672801129170	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672801217198	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1672802292756	geckodriver	INFO	Listening on 127.0.0.1:5099
+1672802295828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "disable-infobars" "--remote-debugging-port" "5100" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileGY82Lv"
+1672802296030	Marionette	INFO	Marionette enabled
+1672802296032	Marionette	INFO	Listening on port 5112
+Read port: 5112
+WebDriver BiDi listening on ws://127.0.0.1:5100
+1672802296136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cc241\\AppData\\Local\\Temp\\rust_mozprofileGY82Lv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:5100/devtools/browser/b9e24317-357e-403f-9c7d-e55dd36946fa
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://passport.baidu.com."
+1672802326839	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672802329276	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1672802333910	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://wappass.baidu.com/static/machine/js/api/mkd.js?cdnversion=1672802325261, line 5: TypeError: n is null
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672802347186	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://cuttlefish.baidu.com."
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js?_=1672803860678, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://wkbjcloudbos.bdimg.com/v1/docconvert2950//wk/219eb3faea77f2f891c57aa630bb391e/0.json?responseContentType=application%2Fjavascript&responseCacheControl=max-age%3D3888000&responseExpires=Sat%2C%2018%20Feb%202023%2011%3A44%3A20%20%2B0800&authorization=bce-auth-v1%2F46dc8cc346744dad800651823a96d9cd%2F2023-01-04T03%3A44%3A20Z%2F3600%2Fhost%2F8fbfb9d06d486bc2fadd76d10e68927f3e5ff9ff648d4eef096cee7983d2c2e1&x-bce-range=0-0&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY3MjgwNzQ2MCwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDb250ZW50VHlwZSIsInJlc3BvbnNlQ2FjaGVDb250cm9sIiwicmVzcG9uc2VFeHBpcmVzIiwieC1iY2UtcmFuZ2UiXX0%3D.QK4T02YBaH4waDqSQq%2FFpBwq3sVDrnGeSIF1vtfj1VQ%3D.1672807460, line 1: ReferenceError: w is not defined
+JavaScript warning: https://dlswbr.baidu.com/heicha/mw/abclite-2030-s.js?_=1672803890411, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://wkbjcloudbos.bdimg.com/v1/docconvert2248//wk/9d90b52a93fab6d1c9f98029ddc5b864/0.json?responseContentType=application%2Fjavascript&responseCacheControl=max-age%3D3888000&responseExpires=Sat%2C%2018%20Feb%202023%2011%3A44%3A49%20%2B0800&authorization=bce-auth-v1%2F46dc8cc346744dad800651823a96d9cd%2F2023-01-04T03%3A44%3A49Z%2F3600%2Fhost%2Ff38723890dbf09ed10572886f97f7e83b7ea1275be844c0aee8f7d773809ba92&x-bce-range=0-0&token=eyJ0eXAiOiJKSVQiLCJ2ZXIiOiIxLjAiLCJhbGciOiJIUzI1NiIsImV4cCI6MTY3MjgwNzQ4OSwidXJpIjp0cnVlLCJwYXJhbXMiOlsicmVzcG9uc2VDb250ZW50VHlwZSIsInJlc3BvbnNlQ2FjaGVDb250cm9sIiwicmVzcG9uc2VFeHBpcmVzIiwieC1iY2UtcmFuZ2UiXX0%3D.gXrDJsrN7DIBhpM%2BOT9TFoszH%2BHBzfoeF%2B%2Bu3GSwon0%3D.1672807489, line 1: ReferenceError: w is not defined
